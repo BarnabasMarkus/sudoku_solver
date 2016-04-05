@@ -7,7 +7,7 @@
 ```Python
 >>> import sudoku
 
-# Give sudoku puzzle as list of list (9*9)
+# Give sudoku puzzle as list of lists (9*9)
 >>> field = [[5,1,7,6,0,0,0,3,4],
             [2,8,9,0,0,4,0,0,0],
             [3,4,6,2,0,5,0,9,0],

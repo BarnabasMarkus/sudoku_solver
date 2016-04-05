@@ -63,7 +63,7 @@ class Sudoku:
         if solved == False:
             self.solve()
         else:
-            self.printing()
+            self.display()
 
     def display(self):
         """
@@ -75,7 +75,6 @@ class Sudoku:
 
         # iterate over rows
         for row_id in range(n):
-            if row_id > 0: print()
             if row_id % s == 0 and row_id > 0: print(l)
 
             # iterate over cols
@@ -88,3 +87,4 @@ class Sudoku:
                 val = self.game[row_id][col_id]
                 val = val if val != 0 else '.'
                 print(val, end=e)
+            print()
