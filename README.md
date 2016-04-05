@@ -22,7 +22,7 @@
 >>> new_game = sudoku.Sudoku(field)
 
 # Print out current game play
->>> new_game.printing()
+>>> new_game.display()
 5 1 7 | 6 . . | . 3 4 
 2 8 9 | . . 4 | . . . 
 3 4 6 | 2 . 5 | . 9 . 
